@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+yourscript = {editable = true, path = "."}
+xout = {editable = true, path = "."}
+docopt = "*"
+pprint = "*"
+tqdm = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
